@@ -29,16 +29,16 @@ int main()
                 createContact(&addressBook);
                 break;
             case 2:
-                // searchContact(&addressBook);
+                searchContact(&addressBook);
                 break;
             case 3:
-                // editContact(&addressBook);
+                 editContact(&addressBook);
                 break;
             case 4:
-                // deleteContact(&addressBook);
+                 deleteContact(&addressBook);
                 break;
             case 5:          
-                // listContacts(&addressBook);
+                 listContacts(&addressBook);
                 break;
             case 6:
                 printf("Saving and Exiting...\n");
