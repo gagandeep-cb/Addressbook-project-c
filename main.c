@@ -8,7 +8,7 @@ int main()
     AddressBook addressBook;
 
     addressBook.contactCount = 0;
-    // initialize(&addressBook); // Initialize the address book
+    //initialize(&addressBook); // Initialize the address book
 
     do 
     {
@@ -42,7 +42,7 @@ int main()
                 break;
             case 6:
                 printf("Saving and Exiting...\n");
-                //saveContactsToFile(&addressBook);
+                saveContactsToFile(&addressBook);
                 break;
             default:
                 printf("Invalid choice. Please try again.\n");
